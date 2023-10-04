@@ -1,17 +1,17 @@
-/* Style for elements with class inline-block */
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
     
 }
 
-/* Style for nav element */
+
 header.navigation {
     display: flex;
     align-items: center;
-    justify-content: space-around; /* or justify-content: space-evenly; */
+    justify-content: space-around; 
     background-color: #000000;
-    padding: 20px; /* Increase padding for more space */
+    padding: 20px; 
     color: white;
     font-weight: bold;
     
@@ -22,23 +22,23 @@ p, h5 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for div with class logo */
+
 .logo {
     width: 23%;
     padding: 1%;
-    box-sizing: border-box; /* Ensure padding is included in width */
+    box-sizing: border-box; 
 }
 
-/* Style for nav element */
+
 nav {
     width: 73%;
     padding: 1%;
-    box-sizing: border-box; /* Ensure padding is included in width */
-    text-align: right; /* Justify the content to the right */
+    box-sizing: border-box; 
+    text-align: right; 
     
 }
 
-/* Style for unordered list */
+
 ul {
     width: 50%;
     margin-left: auto;
@@ -46,44 +46,44 @@ ul {
 }
 
 header.navigation ul li {
-    margin-right: 20px; /* Adjust the margin to increase spacing */
+    margin-right: 20px;
 }
 
-/* Style for images inside class logo */
+
 .logo img {
     text-align: center;
     width: 100px;
 }
 
-/* Style for section with class heroImg */
+
 .heroImg {
     height: 650px;
     padding: 25px;
-    text-align: center; /* Center the content */
+    text-align: center; 
 }
 
-/* Style for p tag inside content */
+
 .content p {
-    text-align: center; /* Center the text */
+    text-align: center; 
 }
 
 .heroImg img {
-    width: 600px; /* Adjust the percentage to control the size */
+    width: 600px; 
 }
-/* Style for footer element */
+
 footer {
     background-color: #000000;
     padding: 1%;
 }
 
-/* Style for ul inside footer */
+
 footer ul {
     display: inline-block;
     vertical-align: top;
     padding: 0;
 }
 
-/* Style for li inside footer */
+
 footer li {
     padding: 5px 10px;
     list-style-type: none;
@@ -92,7 +92,7 @@ footer li {
     font-size: 16px;
 }
 body {
-    background-color: #414141; /* Replace with your desired color code */
+    background-color: #414141; 
     font-family: Helvetica, Arial, sans-serif;
 }
 
